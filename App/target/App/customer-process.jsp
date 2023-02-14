@@ -17,8 +17,6 @@
 %>
 <hr>
 <%=request.getParameter("gender")%>
-<hr>
-<%=request.getParameter("language")%>
 
 </body>
 </html>
