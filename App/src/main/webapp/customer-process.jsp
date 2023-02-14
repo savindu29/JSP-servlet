@@ -15,6 +15,8 @@
     String name = request.getParameter("user-name");
     out.print(name);
 %>
+<hr>
+<%=request.getParameter("gender")%>
 
 </body>
 </html>
