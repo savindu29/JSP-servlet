@@ -9,7 +9,9 @@
     <title>Document</title>
 </head>
 <body>
-<%= new RandomGenerator().getRandomNumber()%>
+<h3>
+
+</h3>
 
 </body>
 </html>
