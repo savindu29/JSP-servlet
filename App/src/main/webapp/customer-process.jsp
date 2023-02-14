@@ -23,7 +23,7 @@
 <%
     String[] array =request.getParameterValues("city");
     for (String s:array) {
-        out.print(s +"\n");
+        out.print(s +" | ");
     }
 
 %>
