@@ -21,9 +21,9 @@
 <%=request.getParameter("language")%>
 <hr>
 <%
-    String[] array =request.getParameter("city");
+    String[] array =request.getParameterValues("city");
     for (String s:array) {
-        out.print(s);
+        out.print(s +"\n");
     }
 
 %>
