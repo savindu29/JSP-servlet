@@ -19,6 +19,14 @@
 <%=request.getParameter("gender")%>
 <hr>
 <%=request.getParameter("language")%>
+<hr>
+<%
+    String[] array =request.getParameter("city");
+    for (String s:array) {
+        out.print(s);
+    }
+
+%>
 
 </body>
 </html>
